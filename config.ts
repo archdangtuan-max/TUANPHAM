@@ -1,0 +1,26 @@
+import type { EditingOptions } from './types';
+
+export const DEFAULT_OPTIONS: EditingOptions = {
+    quality: 'draft',
+    enhance4k: false,
+    aiMaterials: false,
+    styleImage: null,
+    styleExtractLighting: true,
+    styleExtractContext: true,
+    styleExtractDesign: true,
+    architectureImage: null,
+    moodboardImage: null,
+    blendArchitecture: false,
+    blendRatio: 50,
+    aspectRatio: '1:1',
+    facadeType: 'street_front',
+    sky: 'sunny',
+    environment: 'urban',
+    streetActivity: 'none',
+    effects: { fog: false, rain: false, afterRain: false, lightsOn: false, daytime: false, nighttime: false },
+    interiorVariationSeed: 0,
+    interiorRenderType: 'redesign',
+    interiorLighting: 'sunny',
+    sketchStyle: 'black_white_sketch',
+    planView: 'perspective',
+};
